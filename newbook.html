@@ -10,9 +10,9 @@
   <body>
     <header class="bg-dark p-3 d-flex justify-content-between">
         <img id="img" src="duck.png" alt="">
-        <nav class="navbar align-content-center navbar-expand-lg flex-grow-1">
+        <nav class="navbar align-content-left navbar-expand-lg flex-grow-1">
             <div class="container">
-              <a class="navbar-brand text-light d-none d-lg-block" href="#">Catalogo Libri</a>
+              <a class="navbar-brand text-light d-none d-lg-block" href="index.html">Catalogo Libri</a>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active text-secondary" aria-current="page" href="#">Anagrafica Utenti</a>
@@ -35,17 +35,17 @@
           </nav>
     </header>
     <main>
-        <div class="container-fluid">
-            <h1 class="my-3">Nuovo Libro</h1>
+        <div class="container-lg">
+            <h3 class="my-3 text-primary">Nuovo Libro</h3>
             <div class="row g-3m mb-4">
                 <div class="col-6">
-                    <h5>Nome Autore</h5>
+                    <h6>Nome Autore</h6>
                     <div>
                         <input type="text" class="form-control" name="Nome" placeholder="Inserisci il Nome" style="width: 100%">
                     </div>
                 </div>
                 <div class="col-6">
-                    <h5>Cognome Autore</h5>
+                    <h6>Cognome Autore</h6>
                     <div>
                         <input type="text" class="form-control" name="Nome" placeholder="Inserisci il cognome" style="width: 100%">
                     </div>
@@ -53,7 +53,7 @@
             </div>
             <div class="row g-3 mb-4">
                 <div class="col">
-                    <h5>Titolo</h5>
+                    <h6>Titolo</h6>
                     <div>
                         <input type="text" class="form-control" name="Nome" placeholder="Inserisci il titolo del libro" style="width: 100%">
                         <div class="form-text">Titolo versione italiana</div>
@@ -62,7 +62,7 @@
             </div>
             <div class="row g-3 mb-4">
                 <div class="col-12 col-lg-4">
-                    <h5>Genere</h5>
+                    <h6>Genere</h6>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Scegli il genere</option>
                         <option value="1">Horror</option>
@@ -71,13 +71,13 @@
                     </select>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <h5>Anno di Pubblicazione</h5>
+                    <h6>Anno di Pubblicazione</h6>
                     <div>
                         <input type="text" class="form-control" name="Nome" placeholder="Inserisci l'anno" style="width: 100%">
                     </div>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <h5>ISBN#</h5>
+                    <h6>ISBN#</h6>
                     <div>
                         <input type="text" class="form-control" name="Nome" placeholder="Inserisci il codice ISBN#" style="width: 100%">
                     </div>
@@ -86,7 +86,7 @@
             <hr class="my-5">
             <div class="row">
                 <div class="col">
-                    <h5 class="mb-3">Note</h5>
+                    <h6 class="mb-3">Note</h6>
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                         <label for="floatingTextarea2">Inserisci eventuali note sul libro</label>
